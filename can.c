@@ -23,8 +23,6 @@
 #include <signal.h>
 #include <termios.h>
 
-#include <cpclib.h>
-
 #include <elrob/Edebug.h>
 
 #include "smartSmart.h"

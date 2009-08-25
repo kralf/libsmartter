@@ -1,7 +1,7 @@
 #ifndef SMART_CST_H
 #define SMART_CST_H
 
-#include <cpclib.h>
+#include <cpc-usb/cpclib.h>
 
 /*! \defgroup smartlibcst Library of functions for analog output module
     \ingroup  smartlibs

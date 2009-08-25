@@ -1,7 +1,7 @@
 #ifndef SMART_CAN_H
 #define SMART_CAN_H
 
-#include <cpclib.h>
+#include <cpc-usb/cpclib.h>
 
 #include <elrob/Etypes.h>
 

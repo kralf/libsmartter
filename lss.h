@@ -1,7 +1,7 @@
 #ifndef SMART_LSS_H
 #define SMART_LSS_H 
 
-#include <cpclib.h>
+#include <cpc-usb/cpclib.h>
 
 #include <elrob/Etypes.h>
 
