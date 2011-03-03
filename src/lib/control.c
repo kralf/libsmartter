@@ -7,10 +7,10 @@
 #include <math.h>
 #include <sys/time.h>
 
-#include <elrob/Edebug.h>
-#include <elrob/Etime.h>
+#include <libelrob/Edebug.h>
+#include <libelrob/Etime.h>
 
-#include "smartStruct.h"
+#include "smart.h"
 #include "fuzzy_control.h"
 
 #define VELOCITY_DER_WINDOW 3

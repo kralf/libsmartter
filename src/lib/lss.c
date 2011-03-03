@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#include <elrob/Edebug.h>
+#include <libelrob/Edebug.h>
 
 #include "lss.h"
 #include "can.h"

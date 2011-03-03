@@ -14,7 +14,7 @@
 #ifndef SMART_CONTROL_H
 #define SMART_CONTROL_H
 
-#include "smartStruct.h"
+#include "smart.h"
 
 // Fuzzy output borders
 #define FUZZY_OUT_MIN 1

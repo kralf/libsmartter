@@ -1,13 +1,11 @@
 #ifndef SMART_LSS_H
 #define SMART_LSS_H 
 
-#include <cpc-usb/cpclib.h>
+#include <libcpc/cpclib.h>
 
-#include <elrob/Etypes.h>
+#include <libelrob/Etypes.h>
 
-#include "lssStruct.h"
-
-// 
+//
 #define LSS_CAN_ID (0x23f)
 
 // Headers [bit0,   bit1, bit2     , bit3       , bit4     , bit5       , bit6, bit7                   ] 
@@ -65,6 +63,40 @@
 
 #define LSS_MM_TO_INC(mm) ((int)((mm)/0.00375)) // 75mm = 20000 increments (specification)
 #define LSS_INC_TO_MM(inc) (((int)inc)*0.00375)
+
+typedef struct LSS_ERROR {
+  EBOOL following;
+  EBOOL negative_limit;
+  EBOOL positive_limit;
+  EBOOL stroke_reverse;
+  EBOOL stroke_foward;
+  EBOOL input;
+}LSS_ERROR;
+
+
+typedef struct LSS_STR{
+  EBOOL accept_ajustment;
+
+  double max_position;
+  double min_position;
+  double actual_position;
+  double target_position;
+  double max_armature_curr_moving;
+  double max_armature_curr_holding;
+
+  int testingMenu; // to be remove after test on brake
+  double fakeCmd; // to be remove
+
+  // New Ternary Linear Servo System internal state
+  EBOOL enable_moving;
+  EBOOL homing_done;
+  EBOOL shaft_moving_up;
+  EBOOL on_target_position;
+  EBOOL motor_moving;
+  EBOOL command_loaded;
+  EBOOL general_error;
+  LSS_ERROR error;
+}LSS_STR;
 
 extern LSS_STR lss;
 

@@ -23,9 +23,9 @@
 #include <signal.h>
 #include <termios.h>
 
-#include <elrob/Edebug.h>
+#include <libelrob/Edebug.h>
 
-#include "smartSmart.h"
+#include "smart.h"
 #include "can.h"
 #include "lss.h"
 #include "handlers.h"

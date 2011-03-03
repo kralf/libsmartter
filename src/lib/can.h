@@ -1,9 +1,9 @@
 #ifndef SMART_CAN_H
 #define SMART_CAN_H
 
-#include <cpc-usb/cpclib.h>
+#include <libcpc/cpclib.h>
 
-#include <elrob/Etypes.h>
+#include <libelrob/Etypes.h>
 
 /*! \defgroup smartlibcan Library for USB CAN access
 * \ingroup smartlibs

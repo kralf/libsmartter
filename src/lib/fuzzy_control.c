@@ -1,5 +1,5 @@
 /**********************************************
-* Copyright(C) Équipe Funambule
+* Copyright(C) ï¿½quipe Funambule
 *  Projet Plug & Stay
 *-------------------------------------------
 * This program is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
 * ----------------------------------------
 * Membres:
 *  Dany Joly
-*  Patrice Gagné
+*  Patrice Gagnï¿½
 *  Francois Pomerleau
 *  Francois Boucher-Genesse
 * ----------------------------------------
@@ -32,7 +32,6 @@
 #include <stdio.h>
 
 #include "fuzzy_control.h"
-#include "fuzzy_membership.h"
 
 #define FL_DEBUG 0
 

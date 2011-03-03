@@ -19,7 +19,7 @@
  *
  */
 
-#include "smartStruct.h"
+#include "smart.h"
 #include "can.h"
 
 extern SMART_VEHICLE_STATUS smart;

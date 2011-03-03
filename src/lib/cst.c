@@ -17,9 +17,10 @@
 #include <math.h>
 
 #include <stdio.h>
-#include <elrob/Edebug.h>
 
-#include "smartSmart.h"
+#include <libelrob/Edebug.h>
+
+#include "smart.h"
 #include "cst.h"
 #include "can.h"
 

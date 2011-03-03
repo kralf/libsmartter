@@ -6,11 +6,10 @@
 
 #include <math.h>
 
-#include <elrob/Emacros.h>
-#include <elrob/Edebug.h>
+#include <libelrob/Emacros.h>
+#include <libelrob/Edebug.h>
 
-#include "smartMacros.h"
-#include "smartSmart.h"
+#include "smart.h"
 #include "cst.h"
 #include "handlers.h"
 
