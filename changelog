@@ -1,10 +1,17 @@
 libsmartter (0.1-6) unstable; urgency=low
 
+  * Added pkg-config file
+  * Release distributions
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Fri, 26 Jul 2013 09:47:00 +0100
+
+libsmartter (0.1-5) unstable; urgency=low
+
   * Added changelog
 
  -- Ralf Kaestner <ralf.kaestner@gmail.com>  Fri, 26 Jul 2013 09:43:00 +0100
 
-libsmartter (0.1-5) unstable; urgency=low
+libsmartter (0.1-4) unstable; urgency=low
 
   * ReMake build system port
 
