@@ -1,0 +1,37 @@
+libsmartter (0.1-6) unstable; urgency=low
+
+  * Added changelog
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Fri, 26 Jul 2013 09:43:00 +0100
+
+libsmartter (0.1-5) unstable; urgency=low
+
+  * ReMake build system port
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Thu, 03 Mar 2011 09:54:29 +0100
+
+libsmartter (0.1) unstable; urgency=low
+
+  * Removed lapack library dependencies from libelrob
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Mon, 09 Nov 2009 21:03:54 +0100
+
+libsmartter (0.1) unstable; urgency=low
+
+    * Removed higher level localization libraries.
+    * Fixed cpc includes with prefix cpc-usb.
+
+ -- Dizan Vasquez <dichodaemon@gmail.com>  Tue, 25 Aug 2009 16:21:47 +0200
+
+libsmartter (0.1) unstable; urgency=low
+
+    * Replaced elrob with smart from directories.
+    * Started refactoring directories.
+
+ -- Dizan Vasquez <dichodaemon@gmail.com>  Tue, 25 Aug 2009 16:19:05 +0200
+
+libsmartter (0.1) unstable; urgency=low
+
+    * removed doc/.files directory
+
+ -- Dizan Vasquez <dichodaemon@gmail.com>  Thu, 17 Jul 2008 17:23:52 +0200
