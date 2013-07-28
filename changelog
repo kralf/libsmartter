@@ -1,3 +1,9 @@
+libsmartter (0.1-7) unstable; urgency=low
+
+  * Added missing dependencies on libcpc
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Sun, 28 Jul 2013 16:37:00 +0100
+
 libsmartter (0.1-6) unstable; urgency=low
 
   * Added pkg-config file

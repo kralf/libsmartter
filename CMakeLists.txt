@@ -23,12 +23,12 @@ remake_doc(
 )
 
 remake_pack_deb(
-  DEPENDS libelrob
+  DEPENDS libelrob libcpc
 )
 remake_pack_deb(
   COMPONENT dev
   DESCRIPTION "development headers"
-  DEPENDS libsmartter libelrob-dev
+  DEPENDS libsmartter libelrob-dev libcpc-dev
 )
 remake_pack_deb(
   ARCH all
